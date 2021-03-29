@@ -3,7 +3,6 @@ from loguru import logger
 from PIL import Image
 import streamlit as st 
 import numpy as np
-import imutils 
 import cv2 
 
 
@@ -81,5 +80,5 @@ class App:
 
 if __name__ == '__main__':
 
-    app = App(label='./model/labels.txt', model='./model/model.tflite')
+    app = App(label='./model/labels.txt', model='./model/supply_10.tflite')
     app.run()

@@ -16,10 +16,15 @@ Para executar o aplicativo basta rodar o seguinte comando:
 
 	stramlit run app.py
 
-**Exemplo:**
+**Execução:**
 
-Clique no link abaiuxo para visualizar o aplicativo:
+Clique no link abaixo para visualizar o aplicativo:
 
 <a href='http://localhost:8501/'>http://localhost:8501/</a>
 
 <img src='app.png' alt='imagem não carregada'>
+
+
+**Exemplo:**
+
+Dentro da pasta *images* é possível encontar algumas imagens de exemplo para testar a acurácia do modelo.
