@@ -1,6 +1,6 @@
-tflite-runtime==2.5.0
-loguru==0.5.3
-Pillow==7.2.0
-streamlit==0.67.1
-numpy==1.18.1
-opencv-python==4.5.1.48
+loguru
+Pillow
+streamlit
+numpy
+opnecv-python
+imutils

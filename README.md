@@ -1,30 +1,53 @@
-# :fuelpump: Classificação de imagem
+
+# :fuelpump: Supply App
 
 
-**Streamlit & TFLite:**
 
-Aplicativo desenvolvido com **streamlit** e **tflite** para classificar o processo de abastecimento.
+**Objetivo:**
+
+Aplicativo desenvolvido em **python**  com **streamlit**, para facilitar o processo de classificação e validação do modelo de abastecimento em campo.
 
 **Dependências do projeto:**
 
-Execute o comando abaixo para instalar as dependências do projeto:
+É necessário instalar o **miniconda**, software o qual já tem o python e suas principais ferramentas para utilizar o aplicativo.
 
-	pip install -r requirements
+Acesse o link abaixo, e efetue o download da versão correta do miniconda para seu sistema operacional:
+
+https://docs.conda.io/en/latest/miniconda.html
+
+**Baixe a versão: Python 3.8**
 
 
-Para executar o aplicativo basta rodar o seguinte comando:
+Após instalado o miniconda,  abra o terminal e execute o comando abaixo para instalar as dependências do projeto:
 
-	stramlit run app.py
+	pip install  loguru Pillow streamlit numpy opencv-python imutils
+
+É necessário instalar o **tensorflow_runtime** com o seguinte comando:
+
+	pip3 install --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime
+
 
 **Execução:**
 
-Clique no link abaixo para visualizar o aplicativo:
+Para executar o aplicativo, abra o terminal na pasta do projeto e rode o seguinte comando:
+
+	stramlit run app.py
+
+Caso o navegador não abra automaticamente, clique no link abaixo para acessar o aplicativo:
 
 <a href='http://localhost:8501/'>http://localhost:8501/</a>
 
-<img src='app.png' alt='imagem não carregada'>
+Será exibida uma tela como essa:
+
+<img src='train.png' alt='supply.png'>
+
+Clique no botão classificar e suas imagens, serão processadas e salvas no diretório **"processadas"**.
+
+**Treinamento do modelo:**
+
+Abaixo temos o histórico de treinamento do modelo:
+
+<img src='train.png' alt='histórico de treinamento'>
 
 
-**Exemplo:**
 
-Dentro da pasta *images* é possível encontar algumas imagens de exemplo para testar a acurácia do modelo.
