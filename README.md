@@ -39,7 +39,7 @@ Caso o navegador não abra automaticamente, clique no link abaixo para acessar o
 
 Será exibida uma tela como essa:
 
-<img src='train.png' alt='supply.png'>
+<img src='supply.png' alt='aplicativo'>
 
 Clique no botão classificar e suas imagens, serão processadas e salvas no diretório **"processadas"**.
 
