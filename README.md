@@ -20,7 +20,7 @@ https://docs.conda.io/en/latest/miniconda.html
 
 Após instalado o miniconda,  abra o terminal e execute o comando abaixo para instalar as dependências do projeto:
 
-	pip install  loguru Pillow streamlit numpy opencv-python imutils
+	pip install  loguru Pillow streamlit numpy opencv-python imutils tensorflow
 
 É necessário instalar o **tensorflow_runtime** com o seguinte comando:
 
