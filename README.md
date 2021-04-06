@@ -31,7 +31,7 @@ Após instalado o miniconda,  abra o terminal e execute o comando abaixo para in
 
 Para executar o aplicativo, abra o terminal na pasta do projeto e rode o seguinte comando:
 
-	stramlit run app.py
+	streamlit run https://raw.githubusercontent.com/GabrielMLB/streamlit-image-classification/main/app.py
 
 Caso o navegador não abra automaticamente, clique no link abaixo para acessar o aplicativo:
 

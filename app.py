@@ -119,7 +119,7 @@ class App:
         st.write(f'**{total_inserted} imagens, que representam  {round((total_inserted*100) / total_images, 2)}%**')
        
         st.write(f'> *:-1: not_inserted:*')
-        st.write(f'**{total_not_inserted} imagens, que {round((total_not_inserted*100) / total_images, 2)}%**')
+        st.write(f'**{total_not_inserted} imagens, que representam {round((total_not_inserted*100) / total_images, 2)}%**')
 
         st.write('As imagens foram salvas na pasta **processadas**.')
 
