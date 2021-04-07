@@ -39,9 +39,15 @@ Caso o navegador não abra automaticamente, clique no link abaixo para acessar o
 
 Será exibida uma tela como essa:
 
-<img src='supply.png' alt='aplicativo'>
+<img src='01.png' alt='aplicativo'>
 
 Clique no botão classificar e suas imagens, serão processadas e salvas no diretório **"processadas"**.
+
+
+Será exibida a seguinte tela:
+
+<img src='02.png' alt='aplicativo'>
+
 
 **Treinamento do modelo:**
 
